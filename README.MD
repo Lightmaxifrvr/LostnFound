@@ -7,7 +7,7 @@ you can add pull requests and i can implement them when i see em
 
 the unity version for this proj is 2022.3.11f1
 
-here is the (install link)[unityhub://2022.3.11f1/d00248457e15]
+here is the install link unityhub://2022.3.11f1/d00248457e15
 
 uhh so yea
 
