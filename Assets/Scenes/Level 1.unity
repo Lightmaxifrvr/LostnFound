@@ -4511,11 +4511,27 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 359678965320742536, guid: bfa79806498d44d1ca7a889d93c7f8da,
+        type: 3}
+      propertyPath: m_text
+      value: "Hey Neuro-Sama! \nI lost my Twitch Account Login Data and i need your
+        help getting them back!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256698007341098943, guid: bfa79806498d44d1ca7a889d93c7f8da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1273839696716863797, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: Txt
       value: 
       objectReference: {fileID: 1849825829}
+    - target: {fileID: 1664888138227020597, guid: bfa79806498d44d1ca7a889d93c7f8da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1732248892331414090, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: m_Mesh
@@ -4812,6 +4828,11 @@ PrefabInstance:
       value: 501
       objectReference: {fileID: 0}
     - target: {fileID: 1802289739682580107, guid: bfa79806498d44d1ca7a889d93c7f8da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871998000459973252, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5476,16 +5497,31 @@ PrefabInstance:
       propertyPath: m_SelectedVertices.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4275998757839915832, guid: bfa79806498d44d1ca7a889d93c7f8da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -159
+      objectReference: {fileID: 0}
     - target: {fileID: 5474633827698881893, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: LN
       value: Level 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568223228704842433, guid: bfa79806498d44d1ca7a889d93c7f8da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6395155751721184161, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 845030794}
+    - target: {fileID: 6536152928226983901, guid: bfa79806498d44d1ca7a889d93c7f8da,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -158
+      objectReference: {fileID: 0}
     - target: {fileID: 6565673935679904520, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: m_IsActive
@@ -5505,12 +5541,12 @@ PrefabInstance:
     - target: {fileID: 7732452078378020663, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -82.7
+      value: -51
       objectReference: {fileID: 0}
     - target: {fileID: 7732452078378020663, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -186.7
+      value: -181
       objectReference: {fileID: 0}
     - target: {fileID: 7793358833271199616, guid: bfa79806498d44d1ca7a889d93c7f8da,
         type: 3}
@@ -6624,6 +6660,7 @@ GameObject:
   - component: {fileID: 1367634786}
   - component: {fileID: 1367634790}
   - component: {fileID: 1367634791}
+  - component: {fileID: 1367634792}
   m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6773,7 +6810,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367634781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -119.54}
+  m_LocalPosition: {x: 0, y: 0, z: -117.1}
   m_LocalScale: {x: 0.34251487, y: 0.34251487, z: 0.34251487}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6870,6 +6907,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectEnable: {fileID: 1136123016}
+--- !u!114 &1367634792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367634781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de8fbca2303cf9ba937794c9f41cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectDisable: {fileID: 1367634781}
 --- !u!1 &1502857647
 GameObject:
   m_ObjectHideFlags: 0

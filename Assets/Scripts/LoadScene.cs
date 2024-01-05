@@ -13,6 +13,17 @@ public class LoadScene : MonoBehaviour
 
         new WaitForSeconds(1);
         SceneManager.LoadScene(levelName);
+        UnlockNewLevel();
+    }
+
+    void UnlockNewLevel()
+    {
+        if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
+        {
+            PlayerPrefs.SetInt("ReachedIndex", SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
+            PlayerPrefs.Save();
+        }
     }
 
 
@@ -20,6 +31,7 @@ public class LoadScene : MonoBehaviour
     {
         new WaitForSeconds(1);
         SceneManager.LoadScene(levelName);
+        UnlockNewLevel();
     }
 
 
